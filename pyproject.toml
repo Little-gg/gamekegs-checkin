@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gamekegs-checkin"
+version = "0.1.0"
+description = "游戏大桶https://www.gamekegs.com每日签到"
+authors = ["Little-gg"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+requests = "2.25.1"
+dailycheckin = "^0.3.4"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = 'china'
+url = 'http://pypi.tuna.tsinghua.edu.cn/simple'
